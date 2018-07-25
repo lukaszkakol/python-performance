@@ -1,0 +1,12 @@
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_0.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    11  31.2852 MiB  31.2852 MiB   @memory_profiler.profile(precision=4)
+    12                             def memory_profile(x):
+    13  32.9688 MiB   1.6836 MiB       list_a = [i for i in range(x)]
+    14  35.0938 MiB   2.1250 MiB       list_b = [i for i in range(x, 2*x)]
+    15  33.8516 MiB  -1.2422 MiB       del list_a
+    16  33.8516 MiB   0.0000 MiB       return list_b
+
+

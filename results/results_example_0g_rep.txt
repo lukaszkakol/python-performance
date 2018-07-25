@@ -1,0 +1,63 @@
+         5 function calls in 1.460 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.180    0.180    1.460    1.460 <string>:1(<module>)
+        1    0.000    0.000    1.280    1.280 example_1.py:2(list_comprehension)
+        1    1.280    1.280    1.280    1.280 example_1.py:3(<listcomp>)
+        1    0.000    0.000    1.460    1.460 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 1.449 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.176    0.176    1.448    1.448 <string>:1(<module>)
+        1    0.000    0.000    1.273    1.273 example_1.py:2(list_comprehension)
+        1    1.273    1.273    1.273    1.273 example_1.py:3(<listcomp>)
+        1    0.000    0.000    1.449    1.449 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 1.452 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.179    0.179    1.452    1.452 <string>:1(<module>)
+        1    0.000    0.000    1.273    1.273 example_1.py:2(list_comprehension)
+        1    1.273    1.273    1.273    1.273 example_1.py:3(<listcomp>)
+        1    0.000    0.000    1.452    1.452 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_1.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     2     31.9 MiB     31.9 MiB   def list_comprehension(x):
+     3     35.7 MiB      3.8 MiB       result = [i*i for i in range(x)]
+     4     35.7 MiB      0.0 MiB       return result
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_1.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     2     32.2 MiB     32.2 MiB   def list_comprehension(x):
+     3     35.1 MiB      2.9 MiB       result = [i*i for i in range(x)]
+     4     35.1 MiB      0.0 MiB       return result
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_1.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     2     32.4 MiB     32.4 MiB   def list_comprehension(x):
+     3     34.9 MiB      2.5 MiB       result = [i*i for i in range(x)]
+     4     34.9 MiB      0.0 MiB       return result
+
+

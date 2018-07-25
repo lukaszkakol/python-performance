@@ -1,0 +1,44 @@
+         1000005 function calls in 2.026 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.127    0.127    2.026    2.026 <string>:1(<module>)
+        1    0.000    0.000    1.899    1.899 example_9.py:16(get_no_slots)
+        1    1.213    1.213    1.899    1.899 example_9.py:17(<listcomp>)
+  1000000    0.686    0.000    0.686    0.000 example_9.py:4(__init__)
+        1    0.000    0.000    2.026    2.026 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         1000005 function calls in 1.449 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.062    0.062    1.449    1.449 <string>:1(<module>)
+  1000000    0.352    0.000    0.352    0.000 example_9.py:12(__init__)
+        1    0.000    0.000    1.387    1.387 example_9.py:21(get_slots)
+        1    1.035    1.035    1.387    1.387 example_9.py:22(<listcomp>)
+        1    0.000    0.000    1.449    1.449 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_9.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    16     38.9 MiB     38.9 MiB   def get_no_slots(x):
+    17     47.4 MiB      8.5 MiB       result = [MyClassNoSlots() for _ in range(x)]
+    18     47.4 MiB      0.0 MiB       return result
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_9.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    21     39.4 MiB     39.4 MiB   def get_slots(x):
+    22     41.7 MiB      2.3 MiB       result = [MyClassWithSlots() for _ in range(x)]
+    23     41.7 MiB      0.0 MiB       return result
+
+

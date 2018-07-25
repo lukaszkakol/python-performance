@@ -1,0 +1,107 @@
+example 0a_cprofile
+
+real    0m0.652s
+user    0m0.588s
+sys 0m0.062s
+
+example 0b_timeit
+
+real    0m2.438s
+user    0m1.904s
+sys 0m0.530s
+
+example 0c_cli
+
+real    0m0.660s
+user    0m0.620s
+sys 0m0.037s
+
+example 0d_memory
+
+real    0m15.443s
+user    0m11.310s
+sys 0m4.030s
+
+example 0e_both
+
+real    0m15.938s
+user    0m11.829s
+sys 0m4.011s
+
+example 0f_dis
+
+real    0m0.643s
+user    0m0.587s
+sys 0m0.054s
+
+example 0g_rep
+
+real    0m50.773s
+user    0m37.041s
+sys 0m13.436s
+
+example 1
+
+real    0m1.734s
+user    0m1.590s
+sys 0m0.141s
+
+example 2
+
+real    0m2.894s
+user    0m2.407s
+sys 0m0.482s
+
+example 3
+
+real    0m12.904s
+user    0m12.844s
+sys 0m0.046s
+
+example 4
+
+real    0m2.617s
+user    0m2.285s
+sys 0m0.328s
+
+example 5
+
+real    0m2.327s
+user    0m2.276s
+sys 0m0.046s
+
+example 6
+
+real    0m6.130s
+user    0m5.815s
+sys 0m0.308s
+
+example 7
+
+real    0m10.307s
+user    0m10.264s
+sys 0m0.032s
+
+example 8
+
+real    0m1.994s
+user    0m1.979s
+sys 0m0.013s
+
+example 9
+
+real    0m19.862s
+user    0m15.569s
+sys 0m4.189s
+
+example 10
+
+real    0m39.787s
+user    0m38.033s
+sys 0m1.717s
+
+example 11
+
+real    2m28.464s
+user    2m15.110s
+sys 0m12.774s

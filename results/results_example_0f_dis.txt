@@ -1,0 +1,19 @@
+ 20           0 SETUP_LOOP              24 (to 26)
+        >>    2 LOAD_FAST                1 (y)
+              4 POP_JUMP_IF_FALSE       24
+
+ 21           6 LOAD_FAST                0 (x)
+              8 LOAD_FAST                1 (y)
+             10 BINARY_MODULO
+             12 STORE_FAST               2 (temp)
+
+ 22          14 LOAD_FAST                1 (y)
+             16 STORE_FAST               0 (x)
+
+ 23          18 LOAD_FAST                2 (temp)
+             20 STORE_FAST               1 (y)
+             22 JUMP_ABSOLUTE            2
+        >>   24 POP_BLOCK
+
+ 24     >>   26 LOAD_FAST                0 (x)
+             28 RETURN_VALUE

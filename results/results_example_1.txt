@@ -1,0 +1,37 @@
+         5 function calls in 0.145 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.017    0.017    0.145    0.145 <string>:1(<module>)
+        1    0.000    0.000    0.128    0.128 example_1.py:2(list_comprehension)
+        1    0.128    0.128    0.128    0.128 example_1.py:3(<listcomp>)
+        1    0.000    0.000    0.145    0.145 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         1000004 function calls in 0.486 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.016    0.016    0.486    0.486 <string>:1(<module>)
+        1    0.330    0.330    0.470    0.470 example_1.py:7(list_append)
+        1    0.000    0.000    0.486    0.486 {built-in method builtins.exec}
+  1000000    0.140    0.000    0.140    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         1000006 function calls in 0.458 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.017    0.017    0.457    0.457 <string>:1(<module>)
+        1    0.000    0.000    0.440    0.440 example_1.py:14(list_extend)
+  1000001    0.254    0.000    0.254    0.000 example_1.py:16(<genexpr>)
+        1    0.000    0.000    0.458    0.458 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.186    0.186    0.440    0.440 {method 'extend' of 'list' objects}
+
+

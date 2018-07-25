@@ -1,0 +1,13 @@
+         6 function calls in 0.020 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.020    0.020 <string>:1(<module>)
+        1    0.002    0.002    0.019    0.019 example_0.py:4(cpu_profile)
+        1    0.008    0.008    0.008    0.008 example_0.py:5(<listcomp>)
+        1    0.008    0.008    0.008    0.008 example_0.py:6(<listcomp>)
+        1    0.000    0.000    0.020    0.020 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

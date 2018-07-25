@@ -1,0 +1,44 @@
+         1000004 function calls in 0.849 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.849    0.849 <string>:1(<module>)
+        1    0.690    0.690    0.849    0.849 example_5.py:12(test_swap)
+  1000000    0.159    0.000    0.159    0.000 example_5.py:2(swap_temp)
+        1    0.000    0.000    0.849    0.849 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         1000004 function calls in 0.848 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.848    0.848 <string>:1(<module>)
+        1    0.686    0.686    0.848    0.848 example_5.py:12(test_swap)
+  1000000    0.161    0.000    0.161    0.000 example_5.py:8(swap_tuple)
+        1    0.000    0.000    0.848    0.848 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+  3           0 LOAD_FAST                0 (x)
+              2 STORE_FAST               2 (temp)
+
+  4           4 LOAD_FAST                1 (y)
+              6 STORE_FAST               0 (x)
+
+  5           8 LOAD_FAST                2 (temp)
+             10 STORE_FAST               1 (y)
+             12 LOAD_CONST               0 (None)
+             14 RETURN_VALUE
+
+==================================================
+
+  9           0 LOAD_FAST                1 (y)
+              2 LOAD_FAST                0 (x)
+              4 ROT_TWO
+              6 STORE_FAST               0 (x)
+              8 STORE_FAST               1 (y)
+             10 LOAD_CONST               0 (None)
+             12 RETURN_VALUE

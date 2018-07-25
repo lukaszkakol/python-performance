@@ -1,0 +1,217 @@
+         200005 function calls (100005 primitive calls) in 0.466 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.026    0.026    0.466    0.466 <string>:1(<module>)
+200000/100000    0.251    0.000    0.251    0.000 example_11.py:15(__init__)
+        1    0.000    0.000    0.440    0.440 example_11.py:33(get_objects)
+        1    0.189    0.189    0.440    0.440 example_11.py:34(<listcomp>)
+        1    0.000    0.000    0.466    0.466 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         200005 function calls in 0.342 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.020    0.020    0.342    0.342 <string>:1(<module>)
+   100000    0.102    0.000    0.102    0.000 example_11.py:15(__init__)
+   100000    0.149    0.000    0.251    0.000 example_11.py:26(__init__)
+        1    0.000    0.000    0.323    0.323 example_11.py:38(get_objects_with_slots)
+        1    0.072    0.072    0.323    0.323 example_11.py:39(<listcomp>)
+        1    0.000    0.000    0.342    0.342 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         1600009 function calls (1500009 primitive calls) in 2.089 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.044    0.044    2.089    2.089 <string>:1(<module>)
+   100000    0.247    0.000    0.687    0.000 copy.py:268(_reconstruct)
+   100000    0.445    0.000    1.554    0.000 copy.py:66(copy)
+   100000    0.079    0.000    0.266    0.000 copyreg.py:87(__newobj__)
+        1    0.000    0.000    0.000    0.000 copyreg.py:96(_slotnames)
+200000/100000    0.252    0.000    0.252    0.000 example_11.py:15(__init__)
+        1    0.000    0.000    2.045    2.045 example_11.py:43(get_copy)
+        1    0.172    0.172    0.424    0.424 example_11.py:44(<listcomp>)
+        1    0.067    0.067    1.621    1.621 example_11.py:45(<listcomp>)
+   100000    0.186    0.000    0.186    0.000 {built-in method __new__ of type object at 0x9e5d60}
+        1    0.000    0.000    2.089    2.089 {built-in method builtins.exec}
+   200000    0.143    0.000    0.143    0.000 {built-in method builtins.getattr}
+   100001    0.097    0.000    0.097    0.000 {built-in method builtins.hasattr}
+   200000    0.075    0.000    0.075    0.000 {built-in method builtins.isinstance}
+   100000    0.028    0.000    0.028    0.000 {built-in method builtins.issubclass}
+   100000    0.156    0.000    0.156    0.000 {method '__reduce_ex__' of 'object' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+   200000    0.053    0.000    0.053    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+   100000    0.043    0.000    0.043    0.000 {method 'update' of 'dict' objects}
+
+
+         1800012 function calls in 1.944 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.025    0.025    1.943    1.943 <string>:1(<module>)
+   100000    0.384    0.000    0.687    0.000 copy.py:268(_reconstruct)
+   100000    0.434    0.000    1.549    0.000 copy.py:66(copy)
+   100000    0.077    0.000    0.100    0.000 copyreg.py:87(__newobj__)
+        1    0.000    0.000    0.000    0.000 copyreg.py:96(_slotnames)
+   100000    0.093    0.000    0.093    0.000 example_11.py:15(__init__)
+   100000    0.124    0.000    0.216    0.000 example_11.py:26(__init__)
+        1    0.000    0.000    1.918    1.918 example_11.py:49(get_copy_with_slots)
+        1    0.078    0.078    0.294    0.294 example_11.py:50(<listcomp>)
+        1    0.074    0.074    1.624    1.624 example_11.py:51(<listcomp>)
+   100000    0.023    0.000    0.023    0.000 {built-in method __new__ of type object at 0x9e5d60}
+        1    0.000    0.000    1.944    1.944 {built-in method builtins.exec}
+   200000    0.130    0.000    0.130    0.000 {built-in method builtins.getattr}
+   100001    0.086    0.000    0.086    0.000 {built-in method builtins.hasattr}
+   200001    0.069    0.000    0.069    0.000 {built-in method builtins.isinstance}
+   100000    0.028    0.000    0.028    0.000 {built-in method builtins.issubclass}
+   100000    0.027    0.000    0.027    0.000 {built-in method builtins.len}
+   100000    0.035    0.000    0.035    0.000 {built-in method builtins.setattr}
+   100000    0.166    0.000    0.166    0.000 {method '__reduce_ex__' of 'object' objects}
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+   200000    0.061    0.000    0.061    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+   100000    0.030    0.000    0.030    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+
+
+         11300006 function calls (10000006 primitive calls) in 12.099 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.056    0.056   12.099   12.099 <string>:1(<module>)
+1000000/100000    3.847    0.000   11.443    0.000 copy.py:132(deepcopy)
+   500000    0.123    0.000    0.123    0.000 copy.py:190(_deepcopy_atomic)
+200000/100000    0.626    0.000    8.036    0.000 copy.py:236(_deepcopy_dict)
+   500000    0.715    0.000    0.940    0.000 copy.py:252(_keep_alive)
+300000/100000    1.748    0.000   10.011    0.000 copy.py:268(_reconstruct)
+   600000    0.340    0.000    1.410    0.000 copy.py:273(<genexpr>)
+   300000    0.252    0.000    0.368    0.000 copyreg.py:87(__newobj__)
+   100000    0.337    0.000    0.531    0.000 copyreg.py:96(_slotnames)
+200000/100000    0.378    0.000    0.378    0.000 example_11.py:15(__init__)
+        1    0.000    0.000   12.043   12.043 example_11.py:55(get_deep_copy)
+        1    0.062    0.062    0.440    0.440 example_11.py:56(<listcomp>)
+        1    0.160    0.160   11.603   11.603 example_11.py:57(<listcomp>)
+   300000    0.117    0.000    0.117    0.000 {built-in method __new__ of type object at 0x9e5d60}
+        1    0.000    0.000   12.099   12.099 {built-in method builtins.exec}
+   600000    0.518    0.000    0.518    0.000 {built-in method builtins.getattr}
+   300000    0.352    0.000    0.352    0.000 {built-in method builtins.hasattr}
+  2100000    0.464    0.000    0.464    0.000 {built-in method builtins.id}
+   500000    0.200    0.000    0.200    0.000 {built-in method builtins.isinstance}
+   300000    0.096    0.000    0.096    0.000 {built-in method builtins.issubclass}
+   300000    0.639    0.000    1.169    0.000 {method '__reduce_ex__' of 'object' objects}
+   400000    0.101    0.000    0.101    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+  2300000    0.728    0.000    0.728    0.000 {method 'get' of 'dict' objects}
+   100000    0.080    0.000    0.080    0.000 {method 'get' of 'mappingproxy' objects}
+   200000    0.054    0.000    0.054    0.000 {method 'items' of 'dict' objects}
+   200000    0.105    0.000    0.105    0.000 {method 'update' of 'dict' objects}
+
+
+         13000006 function calls (11600006 primitive calls) in 12.337 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.026    0.026   12.337   12.337 <string>:1(<module>)
+1200000/100000    3.863    0.000   11.833    0.000 copy.py:132(deepcopy)
+   600000    0.127    0.000    0.127    0.000 copy.py:190(_deepcopy_atomic)
+   100000    0.417    0.000    8.499    0.000 copy.py:219(_deepcopy_tuple)
+   100000    0.158    0.000    8.063    0.000 copy.py:220(<listcomp>)
+200000/100000    0.553    0.000    7.188    0.000 copy.py:236(_deepcopy_dict)
+   600000    0.741    0.000    0.983    0.000 copy.py:252(_keep_alive)
+300000/100000    1.723    0.000   10.494    0.000 copy.py:268(_reconstruct)
+   600000    0.303    0.000    1.224    0.000 copy.py:273(<genexpr>)
+   300000    0.223    0.000    0.316    0.000 copyreg.py:87(__newobj__)
+   100000    0.317    0.000    0.495    0.000 copyreg.py:96(_slotnames)
+   100000    0.119    0.000    0.119    0.000 example_11.py:15(__init__)
+   100000    0.117    0.000    0.236    0.000 example_11.py:26(__init__)
+        1    0.000    0.000   12.311   12.311 example_11.py:61(get_deep_copy_with_slots)
+        1    0.077    0.077    0.313    0.313 example_11.py:62(<listcomp>)
+        1    0.165    0.165   11.998   11.998 example_11.py:63(<listcomp>)
+   300000    0.093    0.000    0.093    0.000 {built-in method __new__ of type object at 0x9e5d60}
+        1    0.000    0.000   12.337   12.337 {built-in method builtins.exec}
+   600000    0.470    0.000    0.470    0.000 {built-in method builtins.getattr}
+   300000    0.344    0.000    0.344    0.000 {built-in method builtins.hasattr}
+  2500000    0.470    0.000    0.470    0.000 {built-in method builtins.id}
+   500000    0.176    0.000    0.176    0.000 {built-in method builtins.isinstance}
+   300000    0.086    0.000    0.086    0.000 {built-in method builtins.issubclass}
+   100000    0.029    0.000    0.029    0.000 {built-in method builtins.len}
+   100000    0.048    0.000    0.048    0.000 {built-in method builtins.setattr}
+   300000    0.633    0.000    1.128    0.000 {method '__reduce_ex__' of 'object' objects}
+   500000    0.121    0.000    0.121    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+  2700000    0.735    0.000    0.735    0.000 {method 'get' of 'dict' objects}
+   100000    0.078    0.000    0.078    0.000 {method 'get' of 'mappingproxy' objects}
+   300000    0.072    0.000    0.072    0.000 {method 'items' of 'dict' objects}
+   100000    0.055    0.000    0.055    0.000 {method 'update' of 'dict' objects}
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_11.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    33     33.7 MiB     33.7 MiB   def get_objects(x):
+    34     41.6 MiB      7.9 MiB       result = [MyClass() for _ in range(x)]
+    35     41.6 MiB      0.0 MiB       return result
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_11.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    38     33.9 MiB     33.9 MiB   def get_objects_with_slots(x):
+    39     38.1 MiB      4.2 MiB       result = [MyClassWithSlots() for _ in range(x)]
+    40     38.1 MiB      0.0 MiB       return result
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_11.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    43     34.2 MiB     34.2 MiB   def get_copy(x):
+    44     41.6 MiB      7.4 MiB       result = [MyClass() for _ in range(x)]
+    45     46.5 MiB      5.0 MiB       copied_result = [copy.copy(obj) for obj in result]
+    46     46.5 MiB      0.0 MiB       return copied_result
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_11.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    49     35.0 MiB     35.0 MiB   def get_copy_with_slots(x):
+    50     38.3 MiB      3.3 MiB       result = [MyClassWithSlots() for _ in range(x)]
+    51     39.6 MiB      1.2 MiB       copied_result = [copy.copy(obj) for obj in result]
+    52     39.6 MiB      0.0 MiB       return copied_result
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_11.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    55     35.1 MiB     35.1 MiB   def get_deep_copy(x):
+    56     41.8 MiB      6.8 MiB       result = [MyClass() for _ in range(x)]
+    57     52.1 MiB     10.3 MiB       deep_copied_result = [copy.deepcopy(obj) for obj in result]
+    58     52.1 MiB      0.0 MiB       return deep_copied_result
+
+
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_11.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    61     36.5 MiB     36.5 MiB   def get_deep_copy_with_slots(x):
+    62     38.3 MiB      1.8 MiB       result = [MyClassWithSlots() for _ in range(x)]
+    63     45.1 MiB      6.8 MiB       deep_copied_result = [copy.deepcopy(obj) for obj in result]
+    64     45.1 MiB      0.0 MiB       return deep_copied_result
+
+

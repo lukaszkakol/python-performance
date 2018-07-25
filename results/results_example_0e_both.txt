@@ -1,0 +1,173 @@
+Filename: /home/lukaszkakol/workspace/python-performance/examples/example_0.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    11  31.1445 MiB  31.1445 MiB   @memory_profiler.profile(precision=4)
+    12                             def memory_profile(x):
+    13  32.8359 MiB   1.6914 MiB       list_a = [i for i in range(x)]
+    14  34.9648 MiB   2.1289 MiB       list_b = [i for i in range(x, 2*x)]
+    15  33.7539 MiB  -1.2109 MiB       del list_a
+    16  33.7539 MiB   0.0000 MiB       return list_b
+
+
+         98682 function calls (97743 primitive calls) in 14.965 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001   14.965   14.965 <string>:1(<module>)
+       57    0.000    0.000    0.000    0.000 <string>:12(__new__)
+        1    0.000    0.000    0.000    0.000 codecs.py:259(__init__)
+        1    0.000    0.000    0.000    0.000 codecs.py:308(__init__)
+        2    0.000    0.000    0.000    0.000 codecs.py:318(decode)
+     1432    0.001    0.000    0.003    0.000 enum.py:265(__call__)
+     1432    0.002    0.000    0.002    0.000 enum.py:515(__new__)
+       48    0.000    0.000    0.000    0.000 enum.py:795(__or__)
+      668    0.002    0.000    0.005    0.000 enum.py:801(__and__)
+        1    0.003    0.003   14.830   14.830 example_0.py:11(memory_profile)
+        1    7.398    7.398    7.398    7.398 example_0.py:13(<listcomp>)
+        1    7.429    7.429    7.429    7.429 example_0.py:14(<listcomp>)
+      449    0.001    0.000    0.004    0.000 genericpath.py:16(exists)
+        2    0.000    0.000    0.000    0.000 inspect.py:159(isfunction)
+        2    0.000    0.000    0.000    0.000 inspect.py:229(istraceback)
+        2    0.000    0.000    0.000    0.000 inspect.py:239(isframe)
+        7    0.000    0.000    0.000    0.000 inspect.py:253(iscode)
+        1    0.000    0.000    0.000    0.000 inspect.py:485(unwrap)
+        1    0.000    0.000    0.000    0.000 inspect.py:502(_is_wrapper)
+      979    0.001    0.000    0.001    0.000 inspect.py:64(ismodule)
+      470    0.001    0.000    0.001    0.000 inspect.py:643(getfile)
+      459    0.003    0.000    0.013    0.000 inspect.py:680(getsourcefile)
+     1377    0.001    0.000    0.001    0.000 inspect.py:687(<genexpr>)
+     1814    0.001    0.000    0.001    0.000 inspect.py:690(<genexpr>)
+      459    0.002    0.000    0.025    0.000 inspect.py:702(getabsfile)
+        1    0.004    0.004    0.108    0.108 inspect.py:714(getmodule)
+        2    0.000    0.000    0.000    0.000 inspect.py:73(isclass)
+        1    0.000    0.000    0.110    0.110 inspect.py:760(findsource)
+        2    0.000    0.000    0.000    0.000 inspect.py:81(ismethod)
+        1    0.000    0.000    0.000    0.000 inspect.py:882(__init__)
+       57    0.000    0.000    0.000    0.000 inspect.py:891(tokeneater)
+        1    0.000    0.000    0.023    0.023 inspect.py:935(getblock)
+        1    0.000    0.000    0.133    0.133 inspect.py:946(getsourcelines)
+        2    0.000    0.000    0.000    0.000 linecache.py:37(getlines)
+        1    0.000    0.000    0.000    0.000 linecache.py:53(checkcache)
+        1    0.000    0.000    0.000    0.000 linecache.py:82(updatecache)
+        1    0.000    0.000   14.964   14.964 memory_profiler.py:1070(wrapper)
+        1    0.000    0.000    0.000    0.000 memory_profiler.py:1085(choose_backend)
+        4    0.000    0.000    0.000    0.000 memory_profiler.py:1097(<genexpr>)
+        6    0.000    0.000    0.000    0.000 memory_profiler.py:53(unicode)
+        1    0.000    0.000    0.000    0.000 memory_profiler.py:555(__init__)
+      3/1    0.000    0.000    0.133    0.133 memory_profiler.py:560(add)
+        2    0.000    0.000    0.000    0.000 memory_profiler.py:601(items)
+        7    0.000    0.000    0.000    0.000 memory_profiler.py:607(<genexpr>)
+        1    0.000    0.000    0.000    0.000 memory_profiler.py:614(__init__)
+        1    0.000    0.000    0.133    0.133 memory_profiler.py:625(__call__)
+        1    0.000    0.000    0.133    0.133 memory_profiler.py:640(add_function)
+        1    0.000    0.000    0.000    0.000 memory_profiler.py:652(wrap_function)
+        1    0.000    0.000   14.830   14.830 memory_profiler.py:656(f)
+        1    0.000    0.000    0.000    0.000 memory_profiler.py:675(enable_by_count)
+        1    0.000    0.000    0.000    0.000 memory_profiler.py:682(disable_by_count)
+        1    0.000    0.000    0.000    0.000 memory_profiler.py:742(enable)
+        1    0.000    0.000    0.000    0.000 memory_profiler.py:749(disable)
+        1    0.000    0.000    0.000    0.000 memory_profiler.py:753(show_results)
+     4210    0.005    0.000    0.027    0.000 posixpath.py:168(islink)
+      917    0.008    0.000    0.013    0.000 posixpath.py:331(normpath)
+      917    0.002    0.000    0.019    0.000 posixpath.py:369(abspath)
+      458    0.001    0.000    0.077    0.000 posixpath.py:384(realpath)
+  523/458    0.012    0.000    0.066    0.000 posixpath.py:393(_joinrealpath)
+     5652    0.004    0.000    0.007    0.000 posixpath.py:41(_get_sep)
+      459    0.001    0.000    0.001    0.000 posixpath.py:52(normcase)
+     1440    0.002    0.000    0.005    0.000 posixpath.py:64(isabs)
+     4212    0.013    0.000    0.023    0.000 posixpath.py:75(join)
+       54    0.000    0.000    0.023    0.000 re.py:231(compile)
+       54    0.000    0.000    0.023    0.000 re.py:286(_compile)
+       62    0.000    0.000    0.001    0.000 sre_compile.py:223(_compile_charset)
+       62    0.001    0.000    0.001    0.000 sre_compile.py:250(_optimize_charset)
+        9    0.000    0.000    0.000    0.000 sre_compile.py:376(_mk_bitmap)
+        9    0.000    0.000    0.000    0.000 sre_compile.py:378(<listcomp>)
+       67    0.000    0.000    0.000    0.000 sre_compile.py:388(_simple)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:414(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 sre_compile.py:441(_get_charset_prefix)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:482(_compile_info)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:539(isstring)
+        2    0.000    0.000    0.012    0.006 sre_compile.py:542(_code)
+        2    0.000    0.000    0.023    0.011 sre_compile.py:557(compile)
+    276/2    0.003    0.000    0.012    0.006 sre_compile.py:64(_compile)
+      276    0.001    0.000    0.001    0.000 sre_parse.py:111(__init__)
+      272    0.000    0.000    0.000    0.000 sre_parse.py:159(__len__)
+     1023    0.001    0.000    0.002    0.000 sre_parse.py:163(__getitem__)
+       67    0.000    0.000    0.000    0.000 sre_parse.py:167(__setitem__)
+      393    0.000    0.000    0.000    0.000 sre_parse.py:171(append)
+   370/97    0.001    0.000    0.002    0.000 sre_parse.py:173(getwidth)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:223(__init__)
+      894    0.001    0.000    0.001    0.000 sre_parse.py:232(__next)
+      508    0.000    0.000    0.001    0.000 sre_parse.py:248(match)
+      647    0.001    0.000    0.001    0.000 sre_parse.py:253(get)
+      224    0.000    0.000    0.000    0.000 sre_parse.py:285(tell)
+       13    0.000    0.000    0.000    0.000 sre_parse.py:294(_class_escape)
+       32    0.000    0.000    0.000    0.000 sre_parse.py:342(_escape)
+     53/2    0.001    0.000    0.011    0.005 sre_parse.py:407(_parse_sub)
+    186/5    0.004    0.000    0.011    0.002 sre_parse.py:470(_parse)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+       59    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:828(fix_flags)
+       27    0.000    0.000    0.000    0.000 sre_parse.py:84(opengroup)
+        2    0.000    0.000    0.011    0.006 sre_parse.py:844(parse)
+       27    0.000    0.000    0.002    0.000 sre_parse.py:96(closegroup)
+       53    0.000    0.000    0.022    0.000 tokenize.py:152(_compile)
+        1    0.000    0.000    0.000    0.000 tokenize.py:355(detect_encoding)
+        1    0.000    0.000    0.000    0.000 tokenize.py:379(read_or_stop)
+        1    0.000    0.000    0.000    0.000 tokenize.py:385(find_cookie)
+        1    0.000    0.000    0.000    0.000 tokenize.py:448(open)
+       58    0.000    0.000    0.022    0.000 tokenize.py:492(_tokenize)
+        1    0.000    0.000    0.000    0.000 tokenize.py:729(generate_tokens)
+       57    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x9e5d60}
+        2    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+        2    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+     4210    0.001    0.000    0.001    0.000 {built-in method _stat.S_ISLNK}
+      918    0.001    0.000    0.004    0.000 {built-in method builtins.any}
+        1    0.000    0.000   14.965   14.965 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      976    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+    10298    0.004    0.000    0.004    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+1928/1835    0.000    0.000    0.001    0.000 {built-in method builtins.len}
+      156    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+      709    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+      358    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+     8403    0.003    0.000    0.003    0.000 {built-in method posix.fspath}
+        2    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+     4210    0.021    0.000    0.021    0.000 {built-in method posix.lstat}
+       65    0.000    0.000    0.000    0.000 {built-in method posix.readlink}
+      450    0.004    0.000    0.004    0.000 {built-in method posix.stat}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.getrecursionlimit}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.gettrace}
+        2    0.000    0.000    0.000    0.000 {built-in method sys.settrace}
+    10584    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     6487    0.002    0.000    0.002    0.000 {method 'endswith' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+      214    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       18    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+      540    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+       45    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      917    0.001    0.000    0.001    0.000 {method 'join' of 'str' objects}
+       56    0.000    0.000    0.000    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+     4210    0.002    0.000    0.002    0.000 {method 'partition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+       53    0.000    0.000    0.000    0.000 {method 'span' of '_sre.SRE_Match' objects}
+      917    0.001    0.000    0.001    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+     7487    0.003    0.000    0.003    0.000 {method 'startswith' of 'str' objects}
+        9    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       10    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+
+

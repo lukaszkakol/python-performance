@@ -1,0 +1,52 @@
+         1000005 function calls in 0.396 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.017    0.017    0.396    0.396 <string>:1(<module>)
+        1    0.178    0.178    0.379    0.379 example_2.py:2(get_tuple)
+  1000001    0.201    0.000    0.201    0.000 example_2.py:3(<genexpr>)
+        1    0.000    0.000    0.396    0.396 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 0.089 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.018    0.018    0.089    0.089 <string>:1(<module>)
+        1    0.000    0.000    0.072    0.072 example_2.py:7(get_list)
+        1    0.072    0.072    0.072    0.072 example_2.py:8(<listcomp>)
+        1    0.000    0.000    0.089    0.089 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 0.148 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.017    0.017    0.148    0.148 <string>:1(<module>)
+        1    0.000    0.000    0.131    0.131 example_2.py:12(get_set)
+        1    0.131    0.131    0.131    0.131 example_2.py:13(<setcomp>)
+        1    0.000    0.000    0.148    0.148 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 0.634 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.042    0.042    0.634    0.634 <string>:1(<module>)
+        1    0.000    0.000    0.592    0.592 example_2.py:17(get_dict)
+        1    0.592    0.592    0.592    0.592 example_2.py:18(<dictcomp>)
+        1    0.000    0.000    0.634    0.634 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+8000048
+8697464
+33554656
+41943144

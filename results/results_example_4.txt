@@ -1,0 +1,80 @@
+         10005 function calls in 1.584 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.584    1.584 <string>:1(<module>)
+    10000    1.575    0.000    1.575    0.000 example_4.py:2(check_in)
+        1    0.008    0.008    1.584    1.584 example_4.py:29(in_list)
+        1    0.000    0.000    0.000    0.000 example_4.py:30(<listcomp>)
+        1    0.000    0.000    1.584    1.584 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         10005 function calls in 3.181 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    3.181    3.181 <string>:1(<module>)
+    10000    3.168    0.000    3.168    0.000 example_4.py:2(check_in)
+        1    0.012    0.012    3.181    3.181 example_4.py:36(not_in_list)
+        1    0.001    0.001    0.001    0.001 example_4.py:37(<listcomp>)
+        1    0.000    0.000    3.181    3.181 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         10005 function calls in 2.440 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    2.440    2.440 <string>:1(<module>)
+        1    0.009    0.009    2.440    2.440 example_4.py:43(for_list)
+        1    0.001    0.001    0.001    0.001 example_4.py:44(<listcomp>)
+    10000    2.430    0.000    2.430    0.000 example_4.py:6(check_for)
+        1    0.000    0.000    2.440    2.440 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         10005 function calls in 5.060 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    5.059    5.059 <string>:1(<module>)
+        1    0.014    0.014    5.059    5.059 example_4.py:50(not_for_list)
+        1    0.001    0.001    0.001    0.001 example_4.py:51(<listcomp>)
+    10000    5.045    0.001    5.045    0.001 example_4.py:6(check_for)
+        1    0.000    0.000    5.060    5.060 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         20005 function calls in 0.051 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.051    0.051 <string>:1(<module>)
+    10000    0.045    0.000    0.046    0.000 example_4.py:14(check_binary)
+        1    0.004    0.004    0.051    0.051 example_4.py:57(binary_search)
+        1    0.001    0.001    0.001    0.001 example_4.py:58(<listcomp>)
+        1    0.000    0.000    0.051    0.051 {built-in method builtins.exec}
+    10000    0.002    0.000    0.002    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         20005 function calls in 0.056 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.056    0.056 <string>:1(<module>)
+    10000    0.049    0.000    0.051    0.000 example_4.py:14(check_binary)
+        1    0.004    0.004    0.056    0.056 example_4.py:64(not_binary_search)
+        1    0.001    0.001    0.001    0.001 example_4.py:65(<listcomp>)
+        1    0.000    0.000    0.056    0.056 {built-in method builtins.exec}
+    10000    0.002    0.000    0.002    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

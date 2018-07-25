@@ -1,0 +1,70 @@
+         5 function calls in 1.081 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.236    0.236    1.081    1.081 <string>:1(<module>)
+        1    0.101    0.101    0.845    0.845 example_10.py:4(copy_list_constructor)
+        1    0.744    0.744    0.744    0.744 example_10.py:5(<listcomp>)
+        1    0.000    0.000    1.081    1.081 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         6 function calls in 1.384 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.233    0.233    1.384    1.384 <string>:1(<module>)
+        1    0.000    0.000    1.151    1.151 example_10.py:10(copy_list_comprehension)
+        1    0.746    0.746    0.746    0.746 example_10.py:11(<listcomp>)
+        1    0.404    0.404    0.404    0.404 example_10.py:12(<listcomp>)
+        1    0.000    0.000    1.384    1.384 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         5 function calls in 1.103 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.241    0.241    1.103    1.103 <string>:1(<module>)
+        1    0.101    0.101    0.862    0.862 example_10.py:16(copy_list_slice)
+        1    0.761    0.761    0.761    0.761 example_10.py:17(<listcomp>)
+        1    0.000    0.000    1.103    1.103 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         7 function calls in 1.086 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.231    0.231    1.085    1.085 <string>:1(<module>)
+        1    0.101    0.101    0.101    0.101 copy.py:66(copy)
+        1    0.000    0.000    0.855    0.855 example_10.py:22(copy_list_copy)
+        1    0.754    0.754    0.754    0.754 example_10.py:23(<listcomp>)
+        1    0.000    0.000    1.086    1.086 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+
+
+         60000014 function calls (50000014 primitive calls) in 34.189 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.243    0.243   34.189   34.189 <string>:1(<module>)
+10000001/1   16.806    0.000   33.194   33.194 copy.py:132(deepcopy)
+ 10000000    1.803    0.000    1.803    0.000 copy.py:190(_deepcopy_atomic)
+        1    6.133    6.133   33.194   33.194 copy.py:210(_deepcopy_list)
+        1    0.000    0.000    0.000    0.000 copy.py:252(_keep_alive)
+        1    0.000    0.000   33.945   33.945 example_10.py:28(copy_list_deep_copy)
+        1    0.751    0.751    0.751    0.751 example_10.py:29(<listcomp>)
+        1    0.000    0.000   34.189   34.189 {built-in method builtins.exec}
+ 10000004    1.871    0.000    1.871    0.000 {built-in method builtins.id}
+ 10000000    1.758    0.000    1.758    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+ 20000002    4.824    0.000    4.824    0.000 {method 'get' of 'dict' objects}
+
+

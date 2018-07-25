@@ -1,0 +1,57 @@
+         4 function calls in 1.148 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.148    1.148 <string>:1(<module>)
+        1    1.148    1.148    1.148    1.148 example_8.py:4(global_func)
+        1    0.000    0.000    1.148    1.148 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+         4 function calls in 0.869 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.869    0.869 <string>:1(<module>)
+        1    0.869    0.869    0.869    0.869 example_8.py:9(parametrized_func)
+        1    0.000    0.000    0.869    0.869 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+  5           0 SETUP_LOOP              24 (to 26)
+              2 LOAD_GLOBAL              0 (range)
+              4 LOAD_GLOBAL              1 (GLOBAL_CONST)
+              6 CALL_FUNCTION            1
+              8 GET_ITER
+        >>   10 FOR_ITER                12 (to 24)
+             12 STORE_FAST               0 (i)
+
+  6          14 LOAD_GLOBAL              1 (GLOBAL_CONST)
+             16 LOAD_FAST                0 (i)
+             18 BINARY_ADD
+             20 STORE_FAST               1 (res)
+             22 JUMP_ABSOLUTE           10
+        >>   24 POP_BLOCK
+        >>   26 LOAD_CONST               0 (None)
+             28 RETURN_VALUE
+
+================================================================================
+
+ 10           0 SETUP_LOOP              24 (to 26)
+              2 LOAD_GLOBAL              0 (range)
+              4 LOAD_FAST                0 (x)
+              6 CALL_FUNCTION            1
+              8 GET_ITER
+        >>   10 FOR_ITER                12 (to 24)
+             12 STORE_FAST               1 (i)
+
+ 11          14 LOAD_FAST                0 (x)
+             16 LOAD_FAST                1 (i)
+             18 BINARY_ADD
+             20 STORE_FAST               2 (res)
+             22 JUMP_ABSOLUTE           10
+        >>   24 POP_BLOCK
+        >>   26 LOAD_CONST               0 (None)
+             28 RETURN_VALUE
